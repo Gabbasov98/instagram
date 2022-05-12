@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Sergoe UI";
+  src: url("../fonts/SergoeUI.ttf") format("ttf"), url("../fonts/SergoeUI.eot") format("eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "Sergoe UI";
+  src: url("../fonts/SergoeUI-SemiBold.ttf") format("ttf"), url("../fonts/SergoeUI-SemiBold.eot") format("eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+/*# sourceMappingURL=fonts.css.map */

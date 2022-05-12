@@ -1,0 +1,291 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400; }
+
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+a,
+form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  line-height: 1; }
+
+button,
+input,
+textarea {
+  outline: none !important;
+  -webkit-transition: all .125s;
+  -o-transition: all .125s;
+  transition: all .125s;
+  font-family: inherit; }
+
+input[type=text]:focus,
+input[type=file]:focus,
+input[type=checkbox]:focus,
+input[type=radio]:focus,
+input:active {
+  outline: none !important; }
+
+::-webkit-input-placeholder {
+  color: #222; }
+
+::-moz-placeholder {
+  color: #222; }
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #222; }
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #222; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type=number] {
+  -moz-appearance: textfield; }
+
+html {
+  height: 100%;
+  scroll-behavior: smooth; }
+
+svg {
+  -ms-flex-negative: 0;
+  flex-shrink: 0; }
+
+svg,
+path {
+  -webkit-transition: all .125s;
+  -o-transition: all .125s;
+  transition: all .125s; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: 0.125s;
+  -o-transition: 0.125s;
+  transition: 0.125s; }
+  a:hover {
+    text-decoration: none !important; }
+  a:focus {
+    text-decoration: none !important; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+i {
+  line-height: 100%; }
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.125s;
+  background-color: inherit; }
+
+@font-face {
+  font-family: "Sergoe UI";
+  src: url("../fonts/SergoeUI.ttf") format("ttf"), url("../fonts/SergoeUI.eot") format("eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "Sergoe UI";
+  src: url("../fonts/SergoeUI-SemiBold.ttf") format("ttf"), url("../fonts/SergoeUI-SemiBold.eot") format("eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+.posts {
+  padding-bottom: 30px; }
+  .posts__add {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    width: 300px;
+    margin: 20px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px; }
+    .posts__add:hover {
+      background: rgba(0, 0, 0, 0.8); }
+
+.post {
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+  padding-bottom: 16px; }
+  .post__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px; }
+    .post__top-left {
+      display: flex;
+      align-items: center; }
+  .post__avatar {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    display: block; }
+    .post__avatar img {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .post__name {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    display: flex;
+    align-items: center; }
+    .post__name i {
+      background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/BmZ9Gr0aJOA.png");
+      background-position: -153px -113px;
+      background-size: auto;
+      width: 12px;
+      height: 12px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      display: block;
+      margin-left: 3px; }
+    .post__name:hover span {
+      text-decoration: underline; }
+  .post__date {
+    color: #65676b;
+    font-size: .8125rem;
+    line-height: 1.2308;
+    display: flex;
+    align-items: center; }
+    .post__date i {
+      margin-left: 3px; }
+    .post__date:hover span {
+      text-decoration: underline; }
+  .post__more {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px; }
+    .post__more:hover {
+      background: rgba(0, 0, 0, 0.05); }
+  .post__text {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 16px 16px; }
+  .post__img {
+    display: block; }
+    .post__img img {
+      width: 100%;
+      display: block; }
+  .post__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    color: #65676b;
+    font-size: 15px; }
+  .post__reactions {
+    display: flex;
+    align-items: center; }
+    .post__reactions-item {
+      width: 22px;
+      height: 22px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      margin-left: -4px; }
+      .post__reactions-item img {
+        width: 100%; }
+    .post__reactions-title {
+      margin-left: 6px; }
+      .post__reactions-title:hover {
+        text-decoration: underline !important; }
+  .post__shares:hover {
+    text-decoration: underline !important; }
+  .post__action {
+    color: #65676b;
+    padding: 0 16px; }
+    .post__action-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 44px;
+      border-top: 1px solid #65676b;
+      border-bottom: 1px solid #65676b; }
+    .post__action-item {
+      flex-grow: 1;
+      width: 33.3%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 12px;
+      font-weight: 600;
+      height: 32px; }
+      .post__action-item:hover {
+        background: rgba(0, 0, 0, 0.05);
+        cursor: pointer; }
+      .post__action-item i {
+        background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/4WioxOHE-hT.png");
+        background-size: auto;
+        width: 18px;
+        height: 18px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-right: 8px;
+        flex-shrink: 0; }
+      .post__action-item--like i {
+        background-position: 0px -272px; }
+      .post__action-item--comment i {
+        background-position: 0px -234px; }
+      .post__action-item--share i {
+        background-position: 0px -291px; }
+
+body {
+  color: #000;
+  font-family: 'Sergoe UI', sans-serif;
+  background: #f0f2f5; }
+
+/*# sourceMappingURL=style.css.map */
